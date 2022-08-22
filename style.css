@@ -1,0 +1,359 @@
+/* Reset Css */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+ /* Header */
+.Header_nav {
+    height: 100px;
+    background-color: #ff4500;
+    padding: 0 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 200;
+    font-style: italic;
+    padding: 50px;
+}
+.Menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+
+}
+
+.Mostrar-menu,
+.Esconder-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+
+
+}
+.Mostrar-menu {
+    order: 1;
+}
+
+.Menu a:hover,
+.Mostrar-menu:hover,
+.Esconder-menu:hover {
+    color: #ffa450;
+
+}
+
+#check {
+    display: none;
+}
+
+/* Baner */
+.section, .baner {
+    color: #fff;
+    background-image: url(assets/img/webassembly-t.jpg);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+
+
+
+
+}
+
+.baner_h3 {
+    padding: 0 50px;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+    margin: 50px;
+}
+
+.boton-empezar{
+    /* padding: 0 50px; */
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ffa450;
+    padding: 20px 40px;
+    margin-left: 100px;
+    transition: all 0.4s;
+    border-radius: 10px;
+
+}
+.contenido_baner a:hover{
+     background: #ffa450;
+}
+
+/* cards */
+.cards {
+    padding: 60px 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards img {
+    border-radius: 100%;
+}
+
+.cards div{
+    padding: 30px;
+    /* border: 1px solid #4d4d5c87; */
+    margin-right: 50px;
+    border-radius: 20px;
+
+}
+
+.cards h4 {
+    color: black;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.cards p {
+    color:#4d4d5c87;
+    font-size: 18px;
+
+}
+
+.cards a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ff4500;
+    padding: 10px 30px;
+    border: 1px solid #ffa450;
+    margin-top: 15px;
+    border-radius: 10px;
+    transition: 0.4s;
+
+
+}
+ .cards a:hover{
+    background: #ffa450;
+    color: #fff;
+ }
+
+/* Iconos */
+#iconos {
+    padding: 20px 20px;
+    background: #4d4d5c87;
+    max-width: 100%;
+
+}
+
+.contenido-iconos {
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.contenido-iconos div{
+    flex: 1;
+    margin: 20px 0px;
+} 
+
+.rapido {
+    border-right: 2px solid #ff4500;
+}
+.accesible{
+    border-right: 2px solid #ff4500;
+}
+ .mobile {
+    border-right: none;
+}
+.contenido-iconos div i{
+    color: #ff4500;
+}
+
+.contenido-iconos div h6{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.contenido-iconos div p{
+    color: #00000087;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.boton-iconos{
+    display: flex;
+    justify-content: center;
+}
+
+.saber-mas1 {
+    text-decoration: none;
+    border: 2px solid #ff4500 ;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ff4500;
+    transition: 0.4s;
+
+}
+
+.saber-mas1:hover {
+    color: #fff;
+    background: #ff4603;
+}
+
+/* Formulario */
+.formulario {
+    background: #ffa450;
+    padding: 50px 0px;
+
+}
+
+.formulario h4 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.contacto {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.datos-formulario {
+    display: flex;
+}
+
+.datos-formulario div{
+    padding: 10px;
+    flex: 1;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.contacto input, 
+.contacto textarea{
+    background: #ffa450;
+    border-radius: 10px;
+    border: 1px solid #ff4500;
+    padding: 10px 5px;
+    outline: 0;
+    color: #fff;
+    width: 100%;
+}
+
+.boton-formulario{
+    padding: 10px;
+}
+
+.boton-enviar-mensaje {
+    text-decoration: none;
+    border: 1px solid #ff4500;
+    border-radius: 10px;
+    padding: 10px;
+    color: #00000087;
+    display: block;
+    text-align: center;
+    transition: 0.4s;
+    
+    
+}
+
+.boton-formulario a:hover{
+    background: #ff4500;
+    color: #fff;
+
+}
+
+.contacto input::placeholder,
+.contacto textarea::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.contacto input:focus,
+.contacto textarea:focus{
+    border-color: #4d4d5c87;
+    box-shadow: 0 0 0 1px #4d4d5c87;
+}
+
+.mensaje {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* Efecto con humo? lo voy a sacar por que no me gusta jaja :) */
+ #baner:before {
+    content: '';
+    background-color: rgba(77,77,92, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    left: 0;
+    top: 100px;
+
+ }
+
+
+/* Responsive */
+@media(max-width: 768px){
+    /* header */
+    .Mostrar-menu,
+    .Esconder-menu {
+        display: block;
+    }
+    .Menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #ff4500;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    .Menu a {
+       display: block;
+       padding: 20px;
+    }
+    .Esconder-menu {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .Menu{
+        right: 0;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+    .contenido-iconos{
+        flex-direction: column;
+    }
+    .contenido-iconos div{
+        border: none;
+    }
+}
+
+
